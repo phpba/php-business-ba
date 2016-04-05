@@ -22,6 +22,8 @@ O arquivo [/data/companies.json](https://github.com/phpba/php-business-ba/data/c
     "city": "Salvador",
     "employees": "12",
     "website": "http://exemplo.com.br",
-    "framework": "Laravel"
+    "years_using_php": "5",
+    "framework": "Laravel",
+    "use_tests": "Teste Unitário, Teste de Integração, Teste de Aceitação"
 }
 ```
