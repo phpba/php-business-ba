@@ -127,7 +127,7 @@
         "website": "http://serpro.gov.br",
         "years_using_php": "6 a 10",
         "framework": "Zend Framework, Symfony, Silex, Laravel",
-        "Teste Unitário, Teste de Aceitação"
+        "use_tests": "Teste Unitário, Teste de Aceitação"
     },
     {
         "key": "focus",
