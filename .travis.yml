@@ -11,3 +11,9 @@ before_script:
 
 script:
   - ./vendor/bin/phpunit
+
+# whitelist
+branches:
+  only:
+    - master
+    - gh-pages
