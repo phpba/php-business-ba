@@ -248,5 +248,15 @@
         "years_using_php": "6 a 10",
         "framework": "Desenvolvido pela própria empresa",
         "use_tests": ""
+    },
+    {
+        "key": "vivasalute",
+        "name": "Clínica da Obesidade / Viva Salute",
+        "city": "Camaçari",
+        "employees": "260",
+        "website": "https://www.vivasalute.com.br",
+        "years_using_php": "3",
+        "framework": "Yii",
+        "use_tests": "Nunca viram"
     }
 ]
