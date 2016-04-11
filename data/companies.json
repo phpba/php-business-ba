@@ -5,7 +5,7 @@
         "city": "Salvador",
         "employees": "11 a 20",
         "website": "http://lisan-internet.com",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": ""
     },
@@ -15,7 +15,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "compos.com",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": ""
     },
@@ -25,7 +25,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://i3inovacoes.com/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Aceitação"
     },
@@ -35,7 +35,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://www.vivainovacao.com/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Integração, Teste de Aceitação"
     },
@@ -45,7 +45,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "http://www.grupodiginet.com.br/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Aceitação"
     },
@@ -55,7 +55,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://www.beltsolucoes.com.br/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Integração, Teste de Aceitação"
     },
@@ -65,7 +65,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://www.beeweb.com.br/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Integração, Teste de Aceitação"
     },
@@ -75,7 +75,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://selfhotel.com.br/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Integração, Teste de Aceitação"
     },
@@ -85,7 +85,7 @@
         "city": "Salvador",
         "employees": "11 a 20",
         "website": "http://www.w6solutions.com.br/",
-        "years_using_php": "",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": "Teste de Integração, Teste de Aceitação"
     },
@@ -95,7 +95,7 @@
         "city": "Lauro de Freitas",
         "employees": "2 a 10",
         "website": "http://www.soterotech.com.br",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "Zend Framework, Laravel",
         "use_tests": ""
     },
@@ -105,7 +105,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "ecglobalsolutions.com",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Zend Framework, Codeigniter, Yii",
         "use_tests": "Teste Unitário"
     },
@@ -115,7 +115,7 @@
         "city": "salvador",
         "employees": "20 ou mais",
         "website": "http://www.ecglobalnet.com/",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "",
         "use_tests": ""
     },
@@ -125,7 +125,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "http://serpro.gov.br",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Zend Framework, Symfony, Silex, Laravel",
         "use_tests": "Teste Unitário, Teste de Aceitação"
     },
@@ -135,7 +135,7 @@
         "city": "Salvador",
         "employees": "11 a 20",
         "website": "www.focusts.com.br",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Desenvolvido pela própria empresa",
         "use_tests": ""
     },
@@ -145,7 +145,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "http://convergence.works",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Symfony, Silex, Typo3 CMS",
         "use_tests": ""
     },
@@ -155,7 +155,7 @@
         "city": "Feira de santana",
         "employees": "20 ou mais",
         "website": "",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Laravel, Desenvolvido pela própria empresa",
         "use_tests": ""
     },
@@ -165,7 +165,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "solutis.com.br",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "Symfony, Silex, CakePHP, Slim",
         "use_tests": "Teste Unitário, Teste de Integração"
     },
@@ -175,7 +175,7 @@
         "city": "Salvador",
         "employees": "20 ou mais",
         "website": "ifbaiano.edu.br",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "CakePHP, Miolo",
         "use_tests": ""
     },
@@ -185,7 +185,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "www.eternumti.com.br",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "CakePHP",
         "use_tests": ""
     },
@@ -195,7 +195,7 @@
         "city": "Feira de Santana",
         "employees": "20 ou mais",
         "website": "www.lupalina.com.br",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Zend Framework, Phalcon",
         "use_tests": "Teste Unitário, Teste de Integração"
     },
@@ -205,7 +205,7 @@
         "city": "Feira de Santana",
         "employees": "2 a 10",
         "website": "www.linceweb.com.br",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "Laravel, Desenvolvido pela própria empresa",
         "use_tests": ""
     },
@@ -215,7 +215,7 @@
         "city": "Feira de Santana",
         "employees": "2 a 10",
         "website": "www.sensorial.com.br",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "Laravel",
         "use_tests": ""
     },
@@ -225,7 +225,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://soledadetecnologia.com.br/",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "Laravel",
         "use_tests": "Teste Unitário"
     },
@@ -235,7 +235,7 @@
         "city": "Salvador",
         "employees": "2 a 10",
         "website": "http://simetrianet.com.br/",
-        "years_using_php": "1 a 5",
+        "begin_use_php": "",
         "framework": "Laravel",
         "use_tests": "Teste Unitário"
     },
@@ -245,7 +245,7 @@
         "city": "Lauro de Freitas",
         "employees": "2 a 10",
         "website": "https://www.giusoft.com.br/gadmin/",
-        "years_using_php": "6 a 10",
+        "begin_use_php": "",
         "framework": "Desenvolvido pela própria empresa",
         "use_tests": ""
     },
@@ -255,7 +255,7 @@
         "city": "Camaçari",
         "employees": "260",
         "website": "https://www.vivasalute.com.br",
-        "years_using_php": "3",
+        "begin_use_php": "",
         "framework": "Yii",
         "use_tests": "Nunca viram"
     }
