@@ -1,291 +1,367 @@
 [
+
     {
-        "acre": [],
-        "alagoas": [],
-        "amapa": [],
-        "amazonas": [],
-        "bahia": [
-            {
-                "key": "lisan",
-                "name": "LISAN Health & Internet",
-                "city": "Salvador",
-                "employees": "11 a 20",
-                "website": "http://lisan-internet.com",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": ""
-            },
-            {
-                "key": "compos",
-                "name": "COMPOS",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "compos.com",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": ""
-            },
-            {
-                "key": "i3",
-                "name": "i3 Inovações",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://i3inovacoes.com/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Aceitação"
-            },
-            {
-                "key": "viva",
-                "name": "Viva Inovação",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://www.vivainovacao.com/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Integração, Teste de Aceitação"
-            },
-            {
-                "key": "diginet",
-                "name": "Grupo Diginet",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "http://www.grupodiginet.com.br/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Aceitação"
-            },
-            {
-                "key": "belt",
-                "name": "Belt Soluções",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://www.beltsolucoes.com.br/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Integração, Teste de Aceitação"
-            },
-            {
-                "key": "beeweb",
-                "name": "BeeWeb",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://www.beeweb.com.br/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Integração, Teste de Aceitação"
-            },
-            {
-                "key": "selfhotel",
-                "name": "SelfHotel",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://selfhotel.com.br/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Integração, Teste de Aceitação"
-            },
-            {
-                "key": "w6",
-                "name": "W6 Solutions",
-                "city": "Salvador",
-                "employees": "11 a 20",
-                "website": "http://www.w6solutions.com.br/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": "Teste de Integração, Teste de Aceitação"
-            },
-            {
-                "key": "soterotech",
-                "name": "Sotero Tech",
-                "city": "Lauro de Freitas",
-                "employees": "2 a 10",
-                "website": "http://www.soterotech.com.br",
-                "begin_use_php": "",
-                "framework": "Zend Framework, Laravel",
-                "use_tests": ""
-            },
-            {
-                "key": "ecglobalsolutions",
-                "name": "eGlobalsolutions",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "ecglobalsolutions.com",
-                "begin_use_php": "",
-                "framework": "Zend Framework, Codeigniter, Yii",
-                "use_tests": "Teste Unitário"
-            },
-            {
-                "key": "ecglobal",
-                "name": "ecglobal",
-                "city": "salvador",
-                "employees": "20 ou mais",
-                "website": "http://www.ecglobalnet.com/",
-                "begin_use_php": "",
-                "framework": "",
-                "use_tests": ""
-            },
-            {
-                "key": "serpro",
-                "name": "Serpro",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "http://serpro.gov.br",
-                "begin_use_php": "",
-                "framework": "Zend Framework, Symfony, Silex, Laravel",
-                "use_tests": "Teste Unitário, Teste de Aceitação"
-            },
-            {
-                "key": "focus",
-                "name": "Focus Tecnologia em Sistemas",
-                "city": "Salvador",
-                "employees": "11 a 20",
-                "website": "www.focusts.com.br",
-                "begin_use_php": "",
-                "framework": "Desenvolvido pela própria empresa",
-                "use_tests": ""
-            },
-            {
-                "key": "convergence",
-                "name": "Convergence Works",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "http://convergence.works",
-                "begin_use_php": "",
-                "framework": "Symfony, Silex, Typo3 CMS",
-                "use_tests": ""
-            },
-            {
-                "key": "mederi",
-                "name": "Mederi",
-                "city": "Feira de santana",
-                "employees": "20 ou mais",
-                "website": "",
-                "begin_use_php": "",
-                "framework": "Laravel, Desenvolvido pela própria empresa",
-                "use_tests": ""
-            },
-            {
-                "key": "solutis",
-                "name": "Solutis",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "solutis.com.br",
-                "begin_use_php": "",
-                "framework": "Symfony, Silex, CakePHP, Slim",
-                "use_tests": "Teste Unitário, Teste de Integração"
-            },
-            {
-                "key": "ifbaiano",
-                "name": "IF Baiano",
-                "city": "Salvador",
-                "employees": "20 ou mais",
-                "website": "ifbaiano.edu.br",
-                "begin_use_php": "",
-                "framework": "CakePHP, Miolo",
-                "use_tests": ""
-            },
-            {
-                "key": "eternum",
-                "name": "Eternum TI",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "www.eternumti.com.br",
-                "begin_use_php": "",
-                "framework": "CakePHP",
-                "use_tests": ""
-            },
-            {
-                "key": "lupalina",
-                "name": "Lupalina",
-                "city": "Feira de Santana",
-                "employees": "20 ou mais",
-                "website": "www.lupalina.com.br",
-                "begin_use_php": "",
-                "framework": "Zend Framework, Phalcon",
-                "use_tests": "Teste Unitário, Teste de Integração"
-            },
-            {
-                "key": "linceweb",
-                "name": "LinceWeb",
-                "city": "Feira de Santana",
-                "employees": "2 a 10",
-                "website": "www.linceweb.com.br",
-                "begin_use_php": "",
-                "framework": "Laravel, Desenvolvido pela própria empresa",
-                "use_tests": ""
-            },
-            {
-                "key": "sensorial",
-                "name": "Sensorial",
-                "city": "Feira de Santana",
-                "employees": "2 a 10",
-                "website": "www.sensorial.com.br",
-                "begin_use_php": "",
-                "framework": "Laravel",
-                "use_tests": ""
-            },
-            {
-                "key": "soledade",
-                "name": "Soledade Tecnologia",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://soledadetecnologia.com.br/",
-                "begin_use_php": "",
-                "framework": "Laravel",
-                "use_tests": "Teste Unitário"
-            },
-            {
-                "key": "simetria",
-                "name": "Simetria",
-                "city": "Salvador",
-                "employees": "2 a 10",
-                "website": "http://simetrianet.com.br/",
-                "begin_use_php": "",
-                "framework": "Laravel",
-                "use_tests": "Teste Unitário"
-            },
-            {
-                "key": "giusoft",
-                "name": "Giusoft",
-                "city": "Lauro de Freitas",
-                "employees": "2 a 10",
-                "website": "https://www.giusoft.com.br/gadmin/",
-                "begin_use_php": "",
-                "framework": "Desenvolvido pela própria empresa",
-                "use_tests": ""
-            },
-            {
-                "key": "vivasalute",
-                "name": "Clínica da Obesidade / Viva Salute",
-                "city": "Camaçari",
-                "employees": "260",
-                "website": "https://www.vivasalute.com.br",
-                "begin_use_php": "",
-                "framework": "Yii",
-                "use_tests": "Nunca viram"
-            }
-        ],
-        "ceara": [],
-        "espirito_santo": [],
-        "goias": [],
-        "maranhao": [],
-        "mato_grosso": [],
-        "mato_grosso_do_sul": [],
-        "minas_gerais": [],
-        "para": [],
-        "paraiba": [],
-        "parana": [],
-        "pernambuco": [],
-        "piaui": [],
-        "rio_de_janeiro": [],
-        "rio_grande_do_norte": [],
-        "rio_grande_do_sul": [],
-        "rondonia": [],
-        "roraima": [],
-        "santa_catarina": [],
-        "sao_paulo": [],
-        "sergipe": [],
-        "tocantins": []
+        "key": "lisan",
+        "name": "LISAN Health & Internet",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "11 a 20",
+        "website": "http://lisan-internet.com",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": ""
+    },
+    {
+        "key": "compos",
+        "name": "COMPOS",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "compos.com",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": ""
+    },
+    {
+        "key": "i3",
+        "name": "i3 Inovações",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://i3inovacoes.com/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Aceitação"
+    },
+    {
+        "key": "viva",
+        "name": "Viva Inovação",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://www.vivainovacao.com/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Integração, Teste de Aceitação"
+    },
+    {
+        "key": "diginet",
+        "name": "Grupo Diginet",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "http://www.grupodiginet.com.br/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Aceitação"
+    },
+    {
+        "key": "belt",
+        "name": "Belt Soluções",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://www.beltsolucoes.com.br/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Integração, Teste de Aceitação"
+    },
+    {
+        "key": "beeweb",
+        "name": "BeeWeb",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://www.beeweb.com.br/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Integração, Teste de Aceitação"
+    },
+    {
+        "key": "selfhotel",
+        "name": "SelfHotel",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://selfhotel.com.br/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Integração, Teste de Aceitação"
+    },
+    {
+        "key": "w6",
+        "name": "W6 Solutions",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "11 a 20",
+        "website": "http://www.w6solutions.com.br/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": "Teste de Integração, Teste de Aceitação"
+    },
+    {
+        "key": "soterotech",
+        "name": "Sotero Tech",
+        "location": {
+            "city": "Lauro de Freitas",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://www.soterotech.com.br",
+        "begin_use_php": "",
+        "framework": "Zend Framework, Laravel",
+        "use_tests": ""
+    },
+    {
+        "key": "ecglobalsolutions",
+        "name": "eGlobalsolutions",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "ecglobalsolutions.com",
+        "begin_use_php": "",
+        "framework": "Zend Framework, Codeigniter, Yii",
+        "use_tests": "Teste Unitário"
+    },
+    {
+        "key": "ecglobal",
+        "name": "ecglobal",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "http://www.ecglobalnet.com/",
+        "begin_use_php": "",
+        "framework": "",
+        "use_tests": ""
+    },
+    {
+        "key": "serpro",
+        "name": "Serpro",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "http://serpro.gov.br",
+        "begin_use_php": "",
+        "framework": "Zend Framework, Symfony, Silex, Laravel",
+        "use_tests": "Teste Unitário, Teste de Aceitação"
+    },
+    {
+        "key": "focus",
+        "name": "Focus Tecnologia em Sistemas",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "11 a 20",
+        "website": "www.focusts.com.br",
+        "begin_use_php": "",
+        "framework": "Desenvolvido pela própria empresa",
+        "use_tests": ""
+    },
+    {
+        "key": "convergence",
+        "name": "Convergence Works",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "http://convergence.works",
+        "begin_use_php": "",
+        "framework": "Symfony, Silex, Typo3 CMS",
+        "use_tests": ""
+    },
+    {
+        "key": "mederi",
+        "name": "Mederi",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "",
+        "begin_use_php": "",
+        "framework": "Laravel, Desenvolvido pela própria empresa",
+        "use_tests": ""
+    },
+    {
+        "key": "solutis",
+        "name": "Solutis",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "solutis.com.br",
+        "begin_use_php": "",
+        "framework": "Symfony, Silex, CakePHP, Slim",
+        "use_tests": "Teste Unitário, Teste de Integração"
+    },
+    {
+        "key": "ifbaiano",
+        "name": "IF Baiano",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "ifbaiano.edu.br",
+        "begin_use_php": "",
+        "framework": "CakePHP, Miolo",
+        "use_tests": ""
+    },
+    {
+        "key": "eternum",
+        "name": "Eternum TI",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "www.eternumti.com.br",
+        "begin_use_php": "",
+        "framework": "CakePHP",
+        "use_tests": ""
+    },
+    {
+        "key": "lupalina",
+        "name": "Lupalina",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "20 ou mais",
+        "website": "www.lupalina.com.br",
+        "begin_use_php": "",
+        "framework": "Zend Framework, Phalcon",
+        "use_tests": "Teste Unitário, Teste de Integração"
+    },
+    {
+        "key": "linceweb",
+        "name": "LinceWeb",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "www.linceweb.com.br",
+        "begin_use_php": "",
+        "framework": "Laravel, Desenvolvido pela própria empresa",
+        "use_tests": ""
+    },
+    {
+        "key": "sensorial",
+        "name": "Sensorial",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "www.sensorial.com.br",
+        "begin_use_php": "",
+        "framework": "Laravel",
+        "use_tests": ""
+    },
+    {
+        "key": "soledade",
+        "name": "Soledade Tecnologia",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://soledadetecnologia.com.br/",
+        "begin_use_php": "",
+        "framework": "Laravel",
+        "use_tests": "Teste Unitário"
+    },
+    {
+        "key": "simetria",
+        "name": "Simetria",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "http://simetrianet.com.br/",
+        "begin_use_php": "",
+        "framework": "Laravel",
+        "use_tests": "Teste Unitário"
+    },
+    {
+        "key": "giusoft",
+        "name": "Giusoft",
+        "location": {
+            "city": "Lauro de Freitas",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "2 a 10",
+        "website": "https://www.giusoft.com.br/gadmin/",
+        "begin_use_php": "",
+        "framework": "Desenvolvido pela própria empresa",
+        "use_tests": ""
+    },
+    {
+        "key": "vivasalute",
+        "name": "Clínica da Obesidade / Viva Salute",
+        "location": {
+            "city": "Camaçari",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "260",
+        "website": "https://www.vivasalute.com.br",
+        "begin_use_php": "",
+        "framework": "Yii",
+        "use_tests": "Nunca viram"
     }
 ]

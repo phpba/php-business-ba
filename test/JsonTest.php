@@ -29,7 +29,10 @@ class JsonTest extends PHPUnit_Framework_TestCase
         foreach ($data as $i => $entry) {
             $this->assertArrayHasKey('key', $entry, 'Entry #'.$i);
             $this->assertArrayHasKey('name', $entry, 'Entry '.$entry['key']);
-            $this->assertArrayHasKey('city', $entry, 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('location', $entry, 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('city', $entry['location'], 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('state', $entry['location'], 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('acronym', $entry['location'], 'Entry '.$entry['key']);
             $this->assertArrayHasKey('employees', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('website', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('begin_use_php', $entry, 'Entry '.$entry['key']);
