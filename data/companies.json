@@ -363,5 +363,19 @@
         "begin_use_php": "",
         "framework": "Yii",
         "use_tests": "Nunca viram"
+    },
+    {
+        "key": "doteri",
+        "name": "Doteri Tecnologia da Informação",
+        "website": "http://www.doteri.com",
+        "employees": "10",
+        "begin_use_php": "",
+        "framework": "Symfony, Silex"
+        "use_tests": "Teste de unidade, Teste de integração, Teste de stress"
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        }
     }
 ]
