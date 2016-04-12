@@ -1,8 +1,13 @@
 [
+
     {
         "key": "lisan",
         "name": "LISAN Health & Internet",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "11 a 20",
         "website": "http://lisan-internet.com",
         "begin_use_php": "",
@@ -12,7 +17,11 @@
     {
         "key": "compos",
         "name": "COMPOS",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "compos.com",
         "begin_use_php": "",
@@ -22,7 +31,11 @@
     {
         "key": "i3",
         "name": "i3 Inovações",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://i3inovacoes.com/",
         "begin_use_php": "",
@@ -32,7 +45,11 @@
     {
         "key": "viva",
         "name": "Viva Inovação",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://www.vivainovacao.com/",
         "begin_use_php": "",
@@ -42,7 +59,11 @@
     {
         "key": "diginet",
         "name": "Grupo Diginet",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "http://www.grupodiginet.com.br/",
         "begin_use_php": "",
@@ -52,7 +73,11 @@
     {
         "key": "belt",
         "name": "Belt Soluções",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://www.beltsolucoes.com.br/",
         "begin_use_php": "",
@@ -62,7 +87,11 @@
     {
         "key": "beeweb",
         "name": "BeeWeb",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://www.beeweb.com.br/",
         "begin_use_php": "",
@@ -72,7 +101,11 @@
     {
         "key": "selfhotel",
         "name": "SelfHotel",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://selfhotel.com.br/",
         "begin_use_php": "",
@@ -82,7 +115,11 @@
     {
         "key": "w6",
         "name": "W6 Solutions",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "11 a 20",
         "website": "http://www.w6solutions.com.br/",
         "begin_use_php": "",
@@ -92,7 +129,11 @@
     {
         "key": "soterotech",
         "name": "Sotero Tech",
-        "city": "Lauro de Freitas",
+        "location": {
+            "city": "Lauro de Freitas",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://www.soterotech.com.br",
         "begin_use_php": "",
@@ -102,7 +143,11 @@
     {
         "key": "ecglobalsolutions",
         "name": "eGlobalsolutions",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "ecglobalsolutions.com",
         "begin_use_php": "",
@@ -112,7 +157,11 @@
     {
         "key": "ecglobal",
         "name": "ecglobal",
-        "city": "salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "http://www.ecglobalnet.com/",
         "begin_use_php": "",
@@ -122,7 +171,11 @@
     {
         "key": "serpro",
         "name": "Serpro",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "http://serpro.gov.br",
         "begin_use_php": "",
@@ -132,7 +185,11 @@
     {
         "key": "focus",
         "name": "Focus Tecnologia em Sistemas",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "11 a 20",
         "website": "www.focusts.com.br",
         "begin_use_php": "",
@@ -142,7 +199,11 @@
     {
         "key": "convergence",
         "name": "Convergence Works",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "http://convergence.works",
         "begin_use_php": "",
@@ -152,7 +213,11 @@
     {
         "key": "mederi",
         "name": "Mederi",
-        "city": "Feira de santana",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "",
         "begin_use_php": "",
@@ -162,7 +227,11 @@
     {
         "key": "solutis",
         "name": "Solutis",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "solutis.com.br",
         "begin_use_php": "",
@@ -172,7 +241,11 @@
     {
         "key": "ifbaiano",
         "name": "IF Baiano",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "ifbaiano.edu.br",
         "begin_use_php": "",
@@ -182,7 +255,11 @@
     {
         "key": "eternum",
         "name": "Eternum TI",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "www.eternumti.com.br",
         "begin_use_php": "",
@@ -192,7 +269,11 @@
     {
         "key": "lupalina",
         "name": "Lupalina",
-        "city": "Feira de Santana",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "20 ou mais",
         "website": "www.lupalina.com.br",
         "begin_use_php": "",
@@ -202,7 +283,11 @@
     {
         "key": "linceweb",
         "name": "LinceWeb",
-        "city": "Feira de Santana",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "www.linceweb.com.br",
         "begin_use_php": "",
@@ -212,7 +297,11 @@
     {
         "key": "sensorial",
         "name": "Sensorial",
-        "city": "Feira de Santana",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "www.sensorial.com.br",
         "begin_use_php": "",
@@ -222,7 +311,11 @@
     {
         "key": "soledade",
         "name": "Soledade Tecnologia",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://soledadetecnologia.com.br/",
         "begin_use_php": "",
@@ -232,7 +325,11 @@
     {
         "key": "simetria",
         "name": "Simetria",
-        "city": "Salvador",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "http://simetrianet.com.br/",
         "begin_use_php": "",
@@ -242,7 +339,11 @@
     {
         "key": "giusoft",
         "name": "Giusoft",
-        "city": "Lauro de Freitas",
+        "location": {
+            "city": "Lauro de Freitas",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "2 a 10",
         "website": "https://www.giusoft.com.br/gadmin/",
         "begin_use_php": "",
@@ -252,7 +353,11 @@
     {
         "key": "vivasalute",
         "name": "Clínica da Obesidade / Viva Salute",
-        "city": "Camaçari",
+        "location": {
+            "city": "Camaçari",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
         "employees": "260",
         "website": "https://www.vivasalute.com.br",
         "begin_use_php": "",

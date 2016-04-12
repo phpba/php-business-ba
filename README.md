@@ -19,7 +19,11 @@ O arquivo [/data/companies.json](https://github.com/phpba/php-business-ba/data/c
 {
     "key": "exemplo",
     "name": "Nome da Empresa",
-    "city": "Salvador",
+    "location": {
+        "city": "Salvador",
+        "state": "Bahia",
+        "acronym": "BA"
+    },
     "employees": "12",
     "website": "http://exemplo.com.br",
     "years_using_php": "5",
