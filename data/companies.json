@@ -370,8 +370,8 @@
         "website": "http://www.doteri.com",
         "employees": "10",
         "begin_use_php": "",
-        "framework": "Symfony, Silex"
-        "use_tests": "Teste de unidade, Teste de integração, Teste de stress"
+        "framework": "Symfony, Silex",
+        "use_tests": "Teste de unidade, Teste de integração, Teste de stress",
         "location": {
             "city": "Salvador",
             "state": "Bahia",
