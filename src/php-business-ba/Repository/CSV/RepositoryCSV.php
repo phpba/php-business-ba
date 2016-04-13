@@ -6,8 +6,6 @@ use PhpBa\PhpBusinessBa\Repository\RepositoryInterface;
 class RepositoryCSV implements RepositoryInterface
 {
 
-    const URL = "https://docs.google.com/spreadsheets/d/19ri9qD--XVlTZREolIQ5IA9lJODNeqU2elG9gLN06p0/edit?pref=2&pli=1#export?=gid=0&format=csv";
-
     private $chave;
 
 
