@@ -7,14 +7,10 @@ class JsonTest extends PHPUnit_Framework_TestCase
      */
     public function testJsonFiles($file)
     {
-        $filePath = __DIR__ . '/../data/' . $file;
+        $content = $this->readJsonFile($file);
 
-        $this->assertFileExists($filePath);
-
-        $data = json_decode(file_get_contents($filePath), true);
-
-        $this->assertEquals(JSON_ERROR_NONE, json_last_error(), 'File "'.$file.'" must be a valid JSON');
-        $this->assertGreaterThan(0, count($data));
+        $this->assertEquals(JSON_ERROR_NONE, json_last_error(), 'File "' . $file . '" must be a valid JSON');
+        $this->assertGreaterThan(0, count($content));
     }
 
     /**
@@ -22,12 +18,11 @@ class JsonTest extends PHPUnit_Framework_TestCase
      */
     public function testConferencesJson()
     {
-        $data = $this->loadJsonFile('companies.json');
-
         // Check data integrity.
         $keys = [];
-        foreach ($data as $i => $entry) {
-            $this->assertArrayHasKey('key', $entry, 'Entry #'.$i);
+
+        foreach ($this->readJsonFile('companies.json') as $key => $entry) {
+            $this->assertArrayHasKey('key', $entry, 'Entry #'.$key);
             $this->assertArrayHasKey('name', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('location', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('city', $entry['location'], 'Entry '.$entry['key']);
@@ -35,29 +30,19 @@ class JsonTest extends PHPUnit_Framework_TestCase
             $this->assertArrayHasKey('acronym', $entry['location'], 'Entry '.$entry['key']);
             $this->assertArrayHasKey('employees', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('website', $entry, 'Entry '.$entry['key']);
-            $this->assertArrayHasKey('begin_use_php', $entry, 'Entry '.$entry['key']);
-            $this->assertArrayHasKey('framework', $entry, 'Entry '.$entry['key']);
-            $this->assertArrayHasKey('use_tests', $entry, 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('frameworks', $entry, 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('tests', $entry, 'Entry '.$entry['key']);
             $this->assertNotContains($entry['key'], $keys, 'Key must be unique within the file.');
+
             $keys[] = $entry['key'];
         }
     }
 
-    private function loadJsonFile($file)
+    private function readJsonFile($file)
     {
-        $filePath = __DIR__ . '/../data/' . $file;
-        $data = json_decode(file_get_contents($filePath), true);
-        return $data;
-    }
+        $content = file_get_contents(__DIR__ . '/../data/' . $file);
 
-    public function flattenHierarchy($hierarchy)
-    {
-        $flatArray = [];
-        foreach (new \RecursiveIteratorIterator(new \RecursiveArrayIterator($hierarchy), RecursiveIteratorIterator::SELF_FIRST) as $key => $value) {
-            $flatArray[] = $key;
-        }
-        $flatArray = array_unique($flatArray);
-        return $flatArray;
+        return json_decode($content, true);
     }
 
     public function jsonFileProvider()
@@ -65,7 +50,5 @@ class JsonTest extends PHPUnit_Framework_TestCase
         return [
             ['companies.json'],
         ];
-
     }
-
 }
