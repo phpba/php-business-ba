@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.org/phpba/php-business-ba.svg?branch=gh-pages)](https://travis-ci.org/phpba/php-business-ba)
 
-Esse é o repositório com a lista de empresas qeu usam PHP na Bahia.
+Esse é o repositório com a lista de empresas que usam PHP na Bahia.
 
-O objetivo é que o nome dessas empresas fique disponível para consumo via API.
+O objetivo é que os nomes dessas empresas fiquem disponíveis para consumo via API.
 
-Todas as empresas cadastradas precisam estar cientes que seu nomes/marcas estarão visiveís para outras pessoas e que não são informações criticas ou sigilosas.
+Todas as empresas cadastradas precisam estar cientes que seus nomes/marcas estarão visiveís para outras pessoas e que não são informações criticas ou sigilosas.
 
 Fique a vontade para adicionar outras empresas ou corrigir as que já existem.
 
