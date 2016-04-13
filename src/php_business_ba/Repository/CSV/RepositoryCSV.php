@@ -1,6 +1,5 @@
 <?php namespace PhpBa\PhpBusinessBa\Repository\CSV;
 
-
 use PhpBa\PhpBusinessBa\Repository\RepositoryInterface;
 
 class RepositoryCSV implements RepositoryInterface
@@ -19,13 +18,13 @@ class RepositoryCSV implements RepositoryInterface
     public function getData() : array
     {
 
-        ini_set('default_socket_timeout',15);
+        ini_set('default_socket_timeout', 15);
 
         $spreadsheet_data = [];
 
         $fileRows = $this->tratarData();
 
-        foreach($fileRows as $key => $file) {
+        foreach ($fileRows as $key => $file) {
 
             if ($key > 0) {
 
