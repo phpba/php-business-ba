@@ -46,7 +46,7 @@ class RepositoryCSVTest extends \PHPUnit_Framework_TestCase
             $this->assertArrayHasKey('years_using_php', $entry, 'Coluna years_using_php não encontrada');
             $this->assertArrayHasKey('frameworks', $entry, 'Coluna frameworks não encontrada');
             $this->assertArrayHasKey('tests', $entry, 'Coluna tests não encontrada');
-            // $this->assertArrayHasKey('other_technologies', $entry, 'Coluna other_technologies não encontrada');
+            $this->assertArrayHasKey('other_technologies', $entry, 'Coluna other_technologies não encontrada');
             $this->assertNotContains($entry['key'], $keys, 'A key precisa ser unica na lista.');
             $keys[] = $entry['key'];
         }
@@ -89,19 +89,19 @@ class RepositoryCSVTest extends \PHPUnit_Framework_TestCase
         }
     }
     
-    // public function testDeveRetonarErroQuandoOtherTechnologiesNaoForArray()
-    // {
-    //     $arrayData = $this->builderRepositoryCsv();
+    public function testDeveRetonarErroQuandoOtherTechnologiesNaoForArray()
+    {
+        $arrayData = $this->builderRepositoryCsv();
 
-    //     foreach ($arrayData as $entry) {
+        foreach ($arrayData as $entry) {
 
-    //         $this->assertArrayHasKey('other_technologies', $entry, 'Coluna other_technologies não encontrada');
+            $this->assertArrayHasKey('other_technologies', $entry, 'Coluna other_technologies não encontrada');
 
-    //         //Testar consistência das novas colunas
-    //         $typeVarOtherTechnologies = gettype($entry['other_technologies']);
-    //         $this->assertTrue(is_array($entry['other_technologies']), "A coluna other_technologies não é um array. Uma {$typeVarOtherTechnologies} foi passado.");
-    //     }
-    // }
+            //Testar consistência das novas colunas
+            $typeVarOtherTechnologies = gettype($entry['other_technologies']);
+            $this->assertTrue(is_array($entry['other_technologies']), "A coluna other_technologies não é um array. Uma {$typeVarOtherTechnologies} foi passado.");
+        }
+    }
 
 }
 
