@@ -27,7 +27,8 @@ O arquivo [/data/companies.json](https://github.com/phpba/php-business-ba/data/c
     "employees": "12",
     "website": "http://exemplo.com.br",
     "years_using_php": "5",
-    "framework": "Laravel",
-    "use_tests": "Teste Unitário, Teste de Integração, Teste de Aceitação"
+    "framework": ["Laravel"],
+    "use_tests": ["Teste Unitário, Teste de Integração, Teste de Aceitação"],
+    "other_technologies": ["NodeJS"]
 }
 ```
