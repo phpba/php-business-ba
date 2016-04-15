@@ -1,36 +1,48 @@
-<?php namespace PhpBa\PhpBusinessBa\Repository\CSV;
+<?php
+namespace PhpBa\PhpBusinessBa\Repository\CSV;
 
 use PhpBa\PhpBusinessBa\Repository\RepositoryInterface;
 
+/**
+ * responsible class process the csv data
+ *
+ * Class RepositoryCSV
+ * @package PhpBa\PhpBusinessBa\Repository\CSV
+ * @author edyonil <edyonil@gmail.com>
+ */
 class RepositoryCSV implements RepositoryInterface
 {
+    /**
+     * Key google spreadsheet
+     *
+     * @var string
+     */
+    private $key;
 
-    private $chave;
-
-
-    public function __construct(string $chave)
+    /**
+     * RepositoryCSV constructor.
+     *
+     * @param string $key
+     */
+    public function __construct(string $key)
     {
-
-        $this->chave = $chave;
-
+        $this->key = $key;
     }
 
+    /**
+     * returns the worksheet data
+     *
+     * @return array
+     */
     public function getData() : array
     {
-
-        ini_set('default_socket_timeout', 15);
-
-        $spreadsheet_data = [];
-
-        $fileRows = $this->tratarData();
+        $spreadsheetData = [];
+        $fileRows = $this->processData();
 
         foreach ($fileRows as $key => $file) {
-
             if ($key > 0) {
-
                 $data = str_getcsv($file, ',');
-
-                $spreadsheet_data[] =
+                $spreadsheetData[] =
                     [
                         'key' => $key,
                         'name' => $data[1],
@@ -38,40 +50,42 @@ class RepositoryCSV implements RepositoryInterface
                         'employees' => $data[3],
                         'website' => $data[4],
                         'years_using_php' => $data[5],
-                        'framework' => $data[6],
-                        'use_tests' => $data[7]
+                        'frameworks' => (!empty($data[6])) ? explode(',', $data[6]) : [],
+                        'tests' => (!empty($data[7])) ? explode(',', $data[7]) : []
                     ];
             }
         }
 
-
-        return $spreadsheet_data;
+        return $spreadsheetData;
     }
 
+    /**
+     * returns the worksheet url with the specified id
+     *
+     * @return string
+     */
     protected function getUrl()
     {
-        return "https://docs.google.com/spreadsheets/d/{$this->chave}/export?&format=csv&id={$this->chave}";
+        return "https://docs.google.com/spreadsheets/d/{$this->key}/export?&format=csv&id={$this->key}";
     }
 
-    protected function tratarData() : array
+    /**
+     * It makes the request and processing spreadsheet data
+     *
+     * @return array
+     */
+    protected function processData() : array
     {
-
         $url = $this->getUrl();
-
         $ch = curl_init($url);
-
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
         $fileRows = explode("\n", curl_exec($ch));
-
+        //Gets bool if an error is found 404
         $is404 = curl_getinfo($ch, CURLINFO_HTTP_CODE) == 404;
-
         curl_close($ch);
 
         if ($is404) {
-
-            throw new \RuntimeException("Arquivo CSV não encontrado");
-
+            throw new \RuntimeException("File CSV not found");
         }
 
         return $fileRows;
