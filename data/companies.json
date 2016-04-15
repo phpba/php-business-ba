@@ -11,7 +11,8 @@
         "website": "http://lisan-internet.com",
         "begin_use_php": "",
         "frameworks": [""],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "compos",
@@ -23,8 +24,9 @@
         },
         "employees": "20 ou mais",
         "website": "compos.com",
-        "frameworks": "",
-        "tests": [""]
+        "frameworks": [""],
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "i3",
@@ -37,7 +39,8 @@
         "employees": "2 a 10",
         "website": "http://i3inovacoes.com/",
         "frameworks": [""],
-        "tests": ["Teste de Aceitação"]
+        "tests": ["Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "viva",
@@ -50,7 +53,8 @@
         "employees": "2 a 10",
         "website": "http://www.vivainovacao.com/",
         "frameworks": [""],
-        "tests": ["Teste de Integração", "Teste de Aceitação"]
+        "tests": ["Teste de Integração", "Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "diginet",
@@ -63,7 +67,8 @@
         "employees": "20 ou mais",
         "website": "http://www.grupodiginet.com.br/",
         "frameworks": [""],
-        "tests": ["Teste de Aceitação"]
+        "tests": ["Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "belt",
@@ -77,7 +82,8 @@
         "website": "http://www.beltsolucoes.com.br/",
         "begin_use_php": "",
         "frameworks": [""],
-        "tests": ["Teste de Integração", "Teste de Aceitação"]
+        "tests": ["Teste de Integração", "Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "beeweb",
@@ -90,7 +96,8 @@
         "employees": "2 a 10",
         "website": "http://www.beeweb.com.br/",
         "frameworks": [""],
-        "tests": ["Teste de Integração", "Teste de Aceitação"]
+        "tests": ["Teste de Integração", "Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "selfhotel",
@@ -104,7 +111,8 @@
         "website": "http://selfhotel.com.br/",
         "begin_use_php": "",
         "frameworks": [""],
-        "tests": ["Teste de Integração", "Teste de Aceitação"]
+        "tests": ["Teste de Integração", "Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "w6",
@@ -118,7 +126,8 @@
         "website": "http://www.w6solutions.com.br/",
         "begin_use_php": "",
         "frameworks": [""],
-        "tests": ["Teste de Integração", "Teste de Aceitação"]
+        "tests": ["Teste de Integração", "Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "soterotech",
@@ -131,7 +140,8 @@
         "employees": "2 a 10",
         "website": "http://www.soterotech.com.br",
         "frameworks": ["Zend Framework", "Laravel"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "ecglobalsolutions",
@@ -144,7 +154,8 @@
         "employees": "20 ou mais",
         "website": "ecglobalsolutions.com",
         "frameworks": ["Zend Framework", "Codeigniter", "Yii"],
-        "tests": ["Teste Unitário"]
+        "tests": ["Teste Unitário"],
+        "other_technologies": [""]
     },
     {
         "key": "ecglobal",
@@ -157,7 +168,8 @@
         "employees": "20 ou mais",
         "website": "http://www.ecglobalnet.com/",
         "frameworks": [""],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "serpro",
@@ -170,7 +182,8 @@
         "employees": "20 ou mais",
         "website": "http://serpro.gov.br",
         "frameworks": ["Zend Framework", "Symfony", "Silex", "Laravel"],
-        "tests": ["Teste Unitário", "Teste de Aceitação"]
+        "tests": ["Teste Unitário", "Teste de Aceitação"],
+        "other_technologies": [""]
     },
     {
         "key": "focus",
@@ -183,7 +196,8 @@
         "employees": "11 a 20",
         "website": "www.focusts.com.br",
         "frameworks": ["Próprio"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "convergence",
@@ -196,7 +210,8 @@
         "employees": "20 ou mais",
         "website": "http://convergence.works",
         "frameworks": ["Symfony", "Silex", "Typo3 CMS"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "mederi",
@@ -209,7 +224,8 @@
         "employees": "20 ou mais",
         "website": "",
         "frameworks": ["Laravel", "Próprio"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "solutis",
@@ -222,7 +238,8 @@
         "employees": "20 ou mais",
         "website": "solutis.com.br",
         "frameworks": ["Symfony", "Silex", "CakePHP", "Slim"],
-        "tests": ["Teste Unitário", "Teste de Integração"]
+        "tests": ["Teste Unitário", "Teste de Integração"],
+        "other_technologies": [""]
     },
     {
         "key": "ifbaiano",
@@ -235,7 +252,8 @@
         "employees": "20 ou mais",
         "website": "ifbaiano.edu.br",
         "frameworks": ["CakePHP", "Miolo"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "eternum",
@@ -248,7 +266,8 @@
         "employees": "2 a 10",
         "website": "http://www.eternumti.com.br",
         "frameworks": ["CakePHP"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "lupalina",
@@ -261,7 +280,8 @@
         "employees": "20 ou mais",
         "website": "www.lupalina.com.br",
         "frameworks": ["Zend Framework", "Phalcon"],
-        "tests": ["Teste Unitário", "Teste de Integração"]
+        "tests": ["Teste Unitário", "Teste de Integração"],
+        "other_technologies": [""]
     },
     {
         "key": "linceweb",
@@ -274,7 +294,8 @@
         "employees": "2 a 10",
         "website": "www.linceweb.com.br",
         "frameworks": ["Laravel", "Próprio"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "sensorial",
@@ -287,7 +308,8 @@
         "employees": "2 a 10",
         "website": "www.sensorial.com.br",
         "frameworks": ["Laravel"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "soledade",
@@ -300,7 +322,8 @@
         "employees": "2 a 10",
         "website": "http://soledadetecnologia.com.br/",
         "frameworks": ["Laravel"],
-        "tests": ["Teste Unitário"]
+        "tests": ["Teste Unitário"],
+        "other_technologies": [""]
     },
     {
         "key": "simetria",
@@ -313,7 +336,8 @@
         "employees": "2 a 10",
         "website": "http://simetrianet.com.br/",
         "frameworks": ["Laravel"],
-        "tests": ["Teste Unitário"]
+        "tests": ["Teste Unitário"],
+        "other_technologies": [""]
     },
     {
         "key": "giusoft",
@@ -326,7 +350,8 @@
         "employees": "2 a 10",
         "website": "https://www.giusoft.com.br/gadmin/",
         "frameworks": ["Próprio"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "vivasalute",
@@ -339,19 +364,21 @@
         "employees": "260",
         "website": "https://www.vivasalute.com.br",
         "frameworks": ["Yii"],
-        "tests": [""]
+        "tests": [""],
+        "other_technologies": [""]
     },
     {
         "key": "doteri",
         "name": "Doteri Tecnologia da Informação",
-        "website": "http://www.doteri.com",
-        "employees": "10",
-        "frameworks": ["Symfony", "Silex"],
-        "tests": ["Teste de unidade", "Teste de integração", "Teste de stress"],
         "location": {
             "city": "Salvador",
             "state": "Bahia",
             "acronym": "BA"
-        }
+        },
+        "employees": "10",
+        "website": "http://www.doteri.com",
+        "frameworks": ["Symfony", "Silex"],
+        "tests": ["Teste de unidade", "Teste de integração", "Teste de stress"],
+        "other_technologies": [""]
     }
 ]
