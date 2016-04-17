@@ -32,6 +32,7 @@ class JsonTest extends PHPUnit_Framework_TestCase
             $this->assertArrayHasKey('website', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('frameworks', $entry, 'Entry '.$entry['key']);
             $this->assertArrayHasKey('tests', $entry, 'Entry '.$entry['key']);
+            $this->assertArrayHasKey('other_technologies', $entry, 'Entry '.$entry['key']);
             $this->assertNotContains($entry['key'], $keys, 'Key must be unique within the file.');
 
             $keys[] = $entry['key'];

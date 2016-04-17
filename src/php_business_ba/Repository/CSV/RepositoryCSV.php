@@ -51,7 +51,8 @@ class RepositoryCSV implements RepositoryInterface
                         'website' => $data[4],
                         'years_using_php' => $data[5],
                         'frameworks' => (!empty($data[6])) ? explode(',', $data[6]) : [],
-                        'tests' => (!empty($data[7])) ? explode(',', $data[7]) : []
+                        'tests' => (!empty($data[7])) ? explode(',', $data[7]) : [],
+                        'other_technologies' => (!empty($data[8])) ? explode(',', $data[8]) : []
                     ];
             }
         }
