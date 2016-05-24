@@ -380,5 +380,19 @@
         "frameworks": ["Symfony", "Silex"],
         "tests": ["Teste de unidade", "Teste de integração", "Teste de stress"],
         "other_technologies": [""]
+    },
+    {
+        "key": "simplesvet",
+        "name": "SimplesVet",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "+10",
+        "website": "https://www.simples.vet.br",
+        "frameworks": ["Slim", "Próprio"],
+        "tests": ["Teste de integração", "Teste de aceitação"],
+        "other_technologies": ["AngularJS"]
     }
 ]
