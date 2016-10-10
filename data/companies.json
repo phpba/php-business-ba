@@ -394,5 +394,19 @@
         "frameworks": ["Slim", "Próprio"],
         "tests": ["Teste de integração", "Teste de aceitação"],
         "other_technologies": ["AngularJS"]
+    },
+    {
+        "key": "avansys",
+        "name": "Avansys",
+        "location": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "+900",
+        "website": "http://www.avansys.com.br/",
+        "frameworks": ["Zend Framework"],
+        "tests": ["Teste Unitário"],
+        "other_technologies": ["Java", "ASP", ".NET"]
     }
 ]
