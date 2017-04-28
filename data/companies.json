@@ -408,5 +408,19 @@
         "frameworks": ["Zend Framework"],
         "tests": ["Teste Unitário"],
         "other_technologies": ["Java", "ASP", ".NET"]
+    },
+    {
+        "key": "g5",
+        "name": "G5 Soluções",
+        "location": {
+            "city": "Feira de Santana",
+            "state": "Bahia",
+            "acronym": "BA"
+        },
+        "employees": "10 a 15",
+        "website": "http://www.g5solucoes.com/",
+        "frameworks": ["Próprio"],
+        "tests": ["Teste funcional"],
+        "other_technologies": ["SQL SERVER"]
     }
 ]
